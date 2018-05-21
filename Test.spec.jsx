@@ -1,5 +1,6 @@
 import React from 'react';
 import {mount} from 'enzyme';
+import toJSON from 'enzyme-to-json';
 
 import Button from './Button';
 import ButtonGroup from './ButtonGroup';
@@ -14,6 +15,7 @@ describe('This test will not pass', () => {
 			<Button onClick={spy} />
 		</ButtonGroup>
 	);
+	// console.log(toJSON(wrapper));
 
 	test('does something on click', () => {
 		// Comment this out, i.e do not simulate click
