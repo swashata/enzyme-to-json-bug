@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`This test will not pass matches snapshot 1`] = `
+<ButtonGroup>
+  <div
+    className="button-group"
+  >
+    <Button
+      grouped={true}
+      key=".0"
+      onClick={[MockFunction]}
+    >
+      <button
+        className="button is-grouped"
+        onClick={[MockFunction]}
+      >
+        Just a button
+      </button>
+    </Button>
+    <Button
+      grouped={true}
+      key=".1"
+      onClick={[MockFunction]}
+    >
+      <button
+        className="button is-grouped"
+        onClick={[MockFunction]}
+      >
+        Just a button
+      </button>
+    </Button>
+    <Button
+      grouped={true}
+      key=".2"
+      onClick={[MockFunction]}
+    >
+      <button
+        className="button is-grouped"
+        onClick={[MockFunction]}
+      >
+        Just a button
+      </button>
+    </Button>
+    <Button
+      grouped={true}
+      key=".3"
+      onClick={[MockFunction]}
+    >
+      <button
+        className="button is-grouped"
+        onClick={[MockFunction]}
+      >
+        Just a button
+      </button>
+    </Button>
+  </div>
+</ButtonGroup>
+`;
